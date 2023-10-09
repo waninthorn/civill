@@ -1,0 +1,27 @@
+.status-done{
+    display: flex;
+    width: 62px;
+    padding: 2.5px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 14px;
+    background: var(--surface-grey-2, #E3E8EF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.status-onprocess{
+    display: flex;
+    padding: 2.5px 8px;
+    align-items: center;
+    gap: 4px;
+    left: 287px;
+    top: 1.5px;
+    font-size: 14px;
+    font-style: normal;
+    border-radius: 14px;
+    color: #F79009;
+    background: var(--actions-warning-bg, #FEF0C7);
+}

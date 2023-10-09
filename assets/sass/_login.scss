@@ -1,0 +1,28 @@
+input{
+    display: flex;
+    width: 400px;
+    height: 25px;
+    padding: 8.5px 12px;
+    border-radius: 12px;
+    border: 1px solid #E3E8EF;
+    background: #F2F6FA;
+}
+.username{
+    margin-bottom: 20px;
+}
+.password-input-container {
+    position: relative;
+}
+.password-input { 
+    margin-bottom: 28.14px;
+}
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 12.67px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.login-community{
+    line-height: 2;
+}

@@ -1,0 +1,71 @@
+a, h1, h2, h3, h4, h5, label, span, btn-login time, button {
+    font-family: $customFontFamily;
+}
+h1 {
+    color: $primaryColor;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0;
+    margin-top: 35px;
+}
+h3 {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+label {
+    color: #2A3749;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav-title {
+    color: $primaryColor;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+.title-second,
+.name-position,
+h5 {
+    color: $secondColor;
+}
+.forgot-password {
+    color: $primaryColor;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.name-user {
+    font-weight: 700;
+}
+.name-position {
+    font-weight: 400;
+}
+.name-case {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.name-location {
+    color: $secondColor;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#time {
+    color: $primaryColor;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

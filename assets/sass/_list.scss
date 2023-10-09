@@ -1,0 +1,23 @@
+.list-item{
+    display: flex;
+    width: 1000px;
+    padding: 16px 20px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 1px 2px 8px 0px rgba(57, 72, 126, 0.16);
+}
+.list-group {
+    column-count: 3; 
+}
+.list-item-column {
+    display: inline-block;
+    width: 11%; 
+    vertical-align: top;
+}
+.list-item-column2 {
+    display: inline-block;
+    width: 72%; 
+    vertical-align: top; 
+}

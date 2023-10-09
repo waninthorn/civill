@@ -1,0 +1,32 @@
+.btn-join{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 103px;
+    height: 40px;
+    padding: 6px 16px 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: white;
+    border-radius: 6px;
+    background: $primaryColor;
+}
+.btn-login{
+    display: flex;
+    width: 425px;
+    padding: 8.5px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background:  $primaryColor;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+

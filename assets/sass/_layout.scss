@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    background: #FBFCFD;
+}
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #F8FCFE;
+}
+.container-fluid{
+    height: 100%;
+    background: #F8FCFE;
+}
+.bg-left{
+    flex: 1;
+    top:0;
+    left: 0;
+    position: fixed;
+}
+.bg-right {
+    bottom:0;
+    right: 0;
+    position: absolute;
+}
+.list-frame{
+    position: relative;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.logo-frame,
+.login-frame {
+    position: relative;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.bg-left2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+}
+.bg-right2 {
+    position: fixed;
+    bottom:0;
+    right: 0;
+    z-index: -2;
+}
+.img-question {
+    position: fixed;
+    bottom:0;
+    right: 0;
+    z-index: 1;
+}
+.navbar {
+    position: relative;
+    background: white;
+}
+
+@media (max-width: 375px) {
+    .logo-frame {
+        display: none;
+    }
+    .logo{
+        margin-top: 30%;
+    }
+}
+@media (max-width: 414px) {
+    .logo{
+        margin-top: 30%;
+    }
+}
+@media (max-width: 984px) {
+    .logo-frame {
+        display: none;
+    }
+     body {
+        grid-template-columns: 1fr; 
+    }
+   
+}
+@media (max-width: 1600px) {
+.bg-left2{
+    display: none;
+}
+}
+@media (max-width: 1000px) {
+    .bg-left2{
+        display: none;
+    }
+    .list-item{
+    display: flex;
+    width: 1000px;
+    padding: 16px 20px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 1px 2px 8px 0px rgba(57, 72, 126, 0.16);
+}
+.list-group {
+    column-count: 3; 
+}
+.list-item-column {
+    display: inline-block;
+    width: 11%; 
+    vertical-align: top;
+}
+.list-item-column2 {
+    display: inline-block;
+    width: 72%; 
+    vertical-align: top; 
+}
+ }
